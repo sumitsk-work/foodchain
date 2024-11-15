@@ -1,0 +1,26 @@
+[
+    { "area": "Akurdi", "food": "Kadi Khichdi", "price": 75 },
+    { "area": "Akurdi", "food": "Pantar", "price": 70 },
+    { "area": "Akurdi", "food": "Biryani", "price": 80 },
+    { "area": "Akurdi", "food": "Samosa", "price": 15 },
+    { "area": "Akurdi", "food": "Varan Batti", "price": 100 },
+    { "area": "Akurdi", "food": "Ligting Momos", "price": 60 },
+
+    { "area": "Akurdi", "food": "Laxmi- Samosa Chat", "price": 45 },
+    { "area": "Akurdi", "food": "Laxmi- Kachori Chat", "price": 45 },
+    { "area": "Akurdi", "food": "Laxmi- Bhel", "price": 40 },
+
+    { "area": "Akurdi", "food": "Chinese- Noodles", "price": 140 },
+    { "area": "Akurdi", "food": "Chinese- Rice", "price": 140 },
+
+    
+
+    { "area": "Ravet", "food": "Dabeli", "price": 25 },
+    { "area": "Ravet", "food": "Chole Bhature", "price": 70 },
+    { "area": "Ravet", "food": "Paratha", "price": 70 },
+    { "area": "Ravet", "food": "Dosa", "price": 70 },
+    { "area": "Ravet", "food": "Chole Kulche", "price": 90 },
+    { "area": "Ravet", "food": "Bhaji Chapati Varan Bhat", "price": 60 },
+    { "area": "Ravet", "food": "Gul Poli", "price": 20 }
+   
+]
