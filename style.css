@@ -44,7 +44,25 @@ nav a {
     margin-bottom: 10px;
 }
 
-.filter-section button {
+.styled-select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    background: #f9f9f9;
+    margin-bottom: 20px;
+}
+
+.styled-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    background: #f9f9f9;
+    margin-bottom: 20px;
+}
+
+.styled-button {
     background: #4CAF50;
     color: white;
     border: none;
@@ -52,10 +70,55 @@ nav a {
     cursor: pointer;
     font-size: 1em;
     border-radius: 5px;
+    margin-top: 10px;
 }
 
-.filter-section button:hover {
+.styled-button:hover {
     background: #45a049;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.checkbox-container input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.slider-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.slider-values {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 10px;
+    margin-top: 5px;
+}
+
+.noUi-target {
+    background: #e0e0e0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.noUi-handle {
+    background: #4CAF50;
+    border: none;
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.noUi-connect {
+    background: #4CAF50;
 }
 
 .result-section h2 {

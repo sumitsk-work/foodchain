@@ -6,29 +6,38 @@
     <title>Food Finder</title>
     <link rel="stylesheet" href="style.css">
     <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.5.0/nouislider.min.css">
 </head>
 <body>
     <header>
         <h1>Food Finder</h1>
-        <!-- <nav>
-            <a href="#">Login</a>
-        </nav> -->
+    
     </header>
     
     <main>
         <section class="filter-section">
             <label for="area">Select Area:</label>
-            <select id="area" name="area">
+            <select id="area" name="area" class="styled-select">
                 <option value="Akurdi">Akurdi</option>
-                <option value="Ravet">Ravet Chowpati</option>
+                <option value="Ravet">Ravet</option>
                 <!-- Add more options as needed -->
             </select>
 
-            <label for="budget">Today's Budget:</label>
-            <input type="number" id="budget" name="budget" placeholder="Max Price">
-            <input type="checkbox" id="price-na" name="price-na"> Price doesn't matter
+            <label for="hunger-range">Hunger Level:</label>
+            <div id="hunger-slider"></div>
+            <div class="slider-values">
+                <span id="hunger-min-value">1</span> - <span id="hunger-max-value">10</span>
+            </div>
 
-            <button id="submit-btn">Submit</button>
+            <label for="budget">Today's Budget:</label>
+            <input type="number" id="budget" name="budget" class="styled-input" placeholder="Max Price">
+            
+            <div class="checkbox-container">
+                <label for="price-na">Price doesn't matter</label>
+                <input type="checkbox" id="price-na" name="price-na">
+            </div>
+
+            <button id="submit-btn" class="styled-button">Submit</button>
         </section>
 
         <section class="result-section">
@@ -37,6 +46,7 @@
         </section>
     </main>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.5.0/nouislider.min.js"></script>
     <script src="script.js"></script>
     <script>
         if ('serviceWorker' in navigator) {
