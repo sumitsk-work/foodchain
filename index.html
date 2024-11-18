@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="style.css">
     <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.5.0/nouislider.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
     <header>
         <h1>Food Finder</h1>
-    
     </header>
     
     <main>
@@ -19,7 +19,7 @@
             <label for="area">Select Area:</label>
             <select id="area" name="area" class="styled-select">
                 <option value="Akurdi">Akurdi</option>
-                <option value="Ravet">Ravet</option>
+                <option value="Ravet">Ravet Chowpati</option>
                 <!-- Add more options as needed -->
             </select>
 
@@ -33,8 +33,8 @@
             <input type="number" id="budget" name="budget" class="styled-input" placeholder="Max Price">
             
             <div class="checkbox-container">
-                <label for="price-na">Price doesn't matter</label>
                 <input type="checkbox" id="price-na" name="price-na">
+                <label for="price-na">Price doesn't matter</label>
             </div>
 
             <button id="submit-btn" class="styled-button">Submit</button>
@@ -42,7 +42,17 @@
 
         <section class="result-section">
             <h2>Available Food</h2>
-            <ul id="food-list"></ul>
+            <div id="random-suggestion-container">
+                <div id="random-suggestion">
+                    <div id="suggestion-header">Today you should try:</div>
+                    <div id="suggested-item"></div>
+                </div>
+                <button id="refresh-suggestion" class="refresh-button">
+                    <i class="fas fa-sync-alt"></i> <!-- Refresh icon -->
+                </button>
+            </div>
+
+            <div id="food-results"></div>
         </section>
     </main>
 
