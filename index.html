@@ -12,7 +12,6 @@
 <body>
     <header>
         <h1>Food Finder</h1>
-    
     </header>
     
     <main>
@@ -43,6 +42,16 @@
 
         <section class="result-section">
             <h2>Available Food</h2>
+            <div id="random-suggestion-container">
+                <div id="random-suggestion">
+                    <div id="suggestion-header">Today you should try:</div>
+                    <div id="suggested-item"></div>
+                </div>
+                <button id="refresh-suggestion" class="refresh-button">
+                    <i class="fas fa-sync-alt"></i> <!-- Refresh icon -->
+                </button>
+            </div>
+
             <div id="food-results"></div>
         </section>
     </main>

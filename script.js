@@ -7,6 +7,8 @@ document.addEventListener('DOMContentLoaded', function () {
     const priceNACheckbox = document.getElementById('price-na');
     const submitBtn = document.getElementById('submit-btn');
     const foodResults = document.getElementById('food-results');
+    const suggestedItem = document.getElementById('suggested-item');
+    const refreshSuggestion = document.getElementById('refresh-suggestion');
 
     noUiSlider.create(hungerSlider, {
         start: [1, 10],
@@ -26,6 +28,16 @@ document.addEventListener('DOMContentLoaded', function () {
         hungerMinValue.textContent = values[0];
         hungerMaxValue.textContent = values[1];
     });
+
+    function updateRandomSuggestion(filteredFood) {
+        // Get a random food item from the filtered list
+        const randomFood = filteredFood[Math.floor(Math.random() * filteredFood.length)];
+        if (randomFood) {
+            suggestedItem.innerHTML = `
+                <div><strong>${randomFood.food}</strong> at <strong>${randomFood.shop}</strong></div>
+            `;
+        }
+    }
 
     submitBtn.addEventListener('click', function () {
         const area = areaSelect.value;
@@ -53,6 +65,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 }, {});
 
                 foodResults.innerHTML = '';
+                suggestedItem.innerHTML = '';
 
                 // Create a dropdown for each shop
                 Object.keys(groupedByShop).forEach(shop => {
@@ -76,6 +89,14 @@ document.addEventListener('DOMContentLoaded', function () {
                     shopContainer.appendChild(shopTitle);
                     shopContainer.appendChild(foodItems);
                     foodResults.appendChild(shopContainer);
+                });
+
+                // Display the initial random suggestion
+                updateRandomSuggestion(filteredFood);
+
+                // Refresh the random suggestion on button click
+                refreshSuggestion.addEventListener('click', function () {
+                    updateRandomSuggestion(filteredFood);
                 });
             });
     });

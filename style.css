@@ -121,3 +121,59 @@ main {
     color: #666;
     float: right;
 }
+
+.result-section h2 {
+    margin-top: 30px;
+}
+
+/* Suggestion Section Styles */
+#random-suggestion-container {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #f0f8ff;
+    border-radius: 10px;
+    border: 2px solid #007bff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+#random-suggestion {
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px; /* Gap between suggestion and refresh button */
+}
+
+#suggestion-header {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #007bff; /* Bluish color for the header */
+    margin-bottom: 10px;
+}
+
+#suggested-item {
+    font-size: 1.1rem;
+    font-weight: normal;
+    color: #333;
+}
+
+.refresh-button {
+    padding: 8px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.refresh-button i {
+    font-size: 1.2rem;
+}
