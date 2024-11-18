@@ -1,0 +1,9 @@
+***** THIS APP WORKS WELL *****
+
+FUNCTIONALITIES:
+
+1) Added shop names with dropdown.
+2) Improved styling.
+3) Implemented manifest for the PWA.
+
+This file is here because further development requires more JS functionalities, so I am changing the file structure. PLEASE REFER TO THIS APP FOLDER FOR THE BASIC REQUIREMENTS OF THIS APP.

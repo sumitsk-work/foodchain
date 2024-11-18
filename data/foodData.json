@@ -1,26 +1,21 @@
 [
-    { "area": "Akurdi", "food": "Kadi Khichdi", "price": 75, "hunger_index": 8},
-    { "area": "Akurdi", "food": "Pantar", "price": 70, "hunger_index": 10},
-    { "area": "Akurdi", "food": "Biryani", "price": 80 , "hunger_index": 10},
-    { "area": "Akurdi", "food": "Samosa", "price": 15 , "hunger_index": 2},
-    { "area": "Akurdi", "food": "Varan Batti", "price": 100 , "hunger_index": 10},
-    { "area": "Akurdi", "food": "Ligting Momos", "price": 60 , "hunger_index": 6},
+    { "area": "Akurdi", "food": "Kadi Khichdi", "price": 75, "hunger_index": 8, "shop": "Hotel Gajanan" },
+    { "area": "Akurdi", "food": "Pantar", "price": 70, "hunger_index": 10, "shop": "Near Gurudwara Chowk" },
+    { "area": "Akurdi", "food": "Biryani", "price": 80, "hunger_index": 10, "shop": "New Maharastra Biryani" },
+    { "area": "Akurdi", "food": "Samosa", "price": 15, "hunger_index": 2, "shop": "Charbhuja Sweets" },
+    { "area": "Akurdi", "food": "Varan Batti", "price": 100, "hunger_index": 10, "shop": "Hotel Gajanan" },
+    { "area": "Akurdi", "food": "Momos", "price": 60, "hunger_index": 6, "shop": "Lighting Momos" },
+    { "area": "Akurdi", "food": "Samosa Chat", "price": 45, "hunger_index": 5, "shop": "Laxmi Chat" },
+    { "area": "Akurdi", "food": "Kachori Chat", "price": 45, "hunger_index": 5, "shop": "Laxmi Chat" },
+    { "area": "Akurdi", "food": "Bhel", "price": 40, "hunger_index": 5, "shop": "Laxmi Chat" },
+    { "area": "Akurdi", "food": "Noodles", "price": 140, "hunger_index": 9, "shop": "Sizzling China" },
+    { "area": "Akurdi", "food": "Rice", "price": 140, "hunger_index": 9, "shop": "Sizzling China" },
 
-    { "area": "Akurdi", "food": "Laxmi- Samosa Chat", "price": 45 , "hunger_index": 5},
-    { "area": "Akurdi", "food": "Laxmi- Kachori Chat", "price": 45 , "hunger_index": 5},
-    { "area": "Akurdi", "food": "Laxmi- Bhel", "price": 40 , "hunger_index": 5},
-
-    { "area": "Akurdi", "food": "Chinese- Noodles", "price": 140 , "hunger_index": 9},
-    { "area": "Akurdi", "food": "Chinese- Rice", "price": 140 , "hunger_index": 9},
-
-    
-
-    { "area": "Ravet", "food": "Dabeli", "price": 25 , "hunger_index": 3},
-    { "area": "Ravet", "food": "Chole Bhature", "price": 70 , "hunger_index": 9},
-    { "area": "Ravet", "food": "Paratha", "price": 70 , "hunger_index": 7},
-    { "area": "Ravet", "food": "Dosa", "price": 70 , "hunger_index": 6},
-    { "area": "Ravet", "food": "Chole Kulche", "price": 90 , "hunger_index": 9},
-    { "area": "Ravet", "food": "Bhaji Chapati Varan Bhat", "price": 60 , "hunger_index": 9},
-    { "area": "Ravet", "food": "Gul Poli", "price": 20 , "hunger_index": 2}
-   
+    { "area": "Ravet", "food": "Dabeli", "price": 25, "hunger_index": 3, "shop": "Chowpati" },
+    { "area": "Ravet", "food": "Chole Bhature", "price": 70, "hunger_index": 9, "shop": "Chowpati" },
+    { "area": "Ravet", "food": "Paratha", "price": 70, "hunger_index": 7, "shop": "Chowpati" },
+    { "area": "Ravet", "food": "Dosa", "price": 70, "hunger_index": 6, "shop": "Chowpati" },
+    { "area": "Ravet", "food": "Chole Kulche", "price": 90, "hunger_index": 9, "shop": "Chowpati" },
+    { "area": "Ravet", "food": "Bhaji Chapati Varan Bhat", "price": 60, "hunger_index": 9, "shop": "Chowpati" },
+    { "area": "Ravet", "food": "Gul Poli", "price": 20, "hunger_index": 2, "shop": "Chowpati" }
 ]

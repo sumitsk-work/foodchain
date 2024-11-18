@@ -1,8 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<!-- Checking if the operations with master branch works or not -->
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.5.0/nouislider.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
     <header>
@@ -22,7 +20,7 @@
             <label for="area">Select Area:</label>
             <select id="area" name="area" class="styled-select">
                 <option value="Akurdi">Akurdi</option>
-                <option value="Ravet">Ravet</option>
+                <option value="Ravet">Ravet Chowpati</option>
                 <!-- Add more options as needed -->
             </select>
 
@@ -36,8 +34,8 @@
             <input type="number" id="budget" name="budget" class="styled-input" placeholder="Max Price">
             
             <div class="checkbox-container">
-                <label for="price-na">Price doesn't matter</label>
                 <input type="checkbox" id="price-na" name="price-na">
+                <label for="price-na">Price doesn't matter</label>
             </div>
 
             <button id="submit-btn" class="styled-button">Submit</button>
@@ -45,7 +43,7 @@
 
         <section class="result-section">
             <h2>Available Food</h2>
-            <ul id="food-list"></ul>
+            <div id="food-results"></div>
         </section>
     </main>
 
